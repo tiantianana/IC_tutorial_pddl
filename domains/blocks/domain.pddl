@@ -29,6 +29,7 @@
 		   (clear ?x)
 		   (handempty)
 		   (ontable ?x)))
+
   (:action stack
 	     :parameters (?x - block ?y - block)
 	     :precondition (and (holding ?x) (clear ?y))
@@ -38,6 +39,7 @@
 		   (clear ?x)
 		   (handempty)
 		   (on ?x ?y)))
+		   
   (:action unstack
 	     :parameters (?x - block ?y - block)
 	     :precondition (and (on ?x ?y) (clear ?x) (handempty))

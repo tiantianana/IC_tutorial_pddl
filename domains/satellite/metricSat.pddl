@@ -3,7 +3,7 @@
   (:requirements :typing :fluents :equality)
  (:types satellite direction instrument mode)
  (:predicates 
-               (on_board ?i - instrument ?s - satellite)
+            (on_board ?i - instrument ?s - satellite)
 	       (supports ?i - instrument ?m - mode)
 	       (pointing ?s - satellite ?d - direction)
 	       (power_avail ?s - satellite)
