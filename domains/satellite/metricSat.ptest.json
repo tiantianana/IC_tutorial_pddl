@@ -1,0 +1,21 @@
+{
+  "defaultDomain": "metricSat.pddl",
+  "defaultOptions": "",
+  "cases": [
+    {
+      "problem": "pfile01.pddl"
+    },
+    {
+      "problem": "pfile10.pddl"
+    },
+    {
+      "problem": "pfile15.pddl"
+    },
+    {
+      "problem": "pfile18.pddl"
+    },
+    {
+      "problem": "pfile05.pddl"
+    }
+  ]
+}
