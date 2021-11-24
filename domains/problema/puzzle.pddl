@@ -2,7 +2,7 @@
 ;;; Problema inventado
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(define (domain TILES)
+(define (domain puzzle)
 	(:requirements :strips :typing)
 	(:types
 		cell tile
@@ -13,7 +13,7 @@
 		(adjacent ?y - cell ?z - cell)
 	)
 
-	(:action move
+	(:action move-right
 		:parameters (?x - tile ?y - cell ?z - cell)
 		:precondition (and (on ?x ?y) (clear ?z) (adjacent ?y ?z))
 		:effect (and (on ?x ?z)
@@ -21,4 +21,5 @@
 			(not (on ?x ?y))
 			(not (clear ?z)))
 	)
+
 )
