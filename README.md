@@ -21,3 +21,5 @@ cd seq-sat-cbp
 ```
 Por ejemplo:
 ```./plan ../domain.pddl ../pfile01.pddl ../solution/p1```
+
+![example](example.png)
